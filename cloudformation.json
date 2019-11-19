@@ -1,0 +1,18 @@
+{
+  "Resources":{
+    "workspace":{
+      "Type":"AWS::WorkSpaces::Workspace",
+      "Properties":{
+        "BundleId":"wsb-clj85qzj1",
+        "DirectoryId":"d-9067071dd1",
+        "UserName":"nood",
+        "Tags":[
+         {
+          "Key": "Tyo",
+          "Value": "AKA-oo"
+         }
+        ]
+      }
+    }
+  }
+}

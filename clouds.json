@@ -1,0 +1,32 @@
+{
+  "Resources":{
+    "workspace01":{
+      "Type":"AWS::WorkSpaces::Workspace",
+      "Properties":{
+        "BundleId":"wsb-clj85qzj1",
+        "DirectoryId":"d-9067071dd1",
+        "UserName":"chalene",
+        "Tags":[
+         {
+          "Key": "Tyo",
+          "Value": "AKA-oo"
+         }
+        ]
+      }
+    }
+    "workspace02":{
+      "Type":"AWS::WorkSpaces::Workspace",
+      "Properties":{
+        "BundleId":"wsb-clj85qzj1",
+        "DirectoryId":"d-9067071dd1",
+        "UserName":"nood",
+        "Tags":[
+         {
+          "Key": "BB",
+          "Value": "AKA-brb"
+         }
+        ]
+      }
+    }
+  }
+}  
